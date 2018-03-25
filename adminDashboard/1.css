@@ -1,1 +1,56 @@
 *{margin: 0; padding: 0;} 
+
+
+body.sticky-footer {
+  margin-bottom: 56px;
+}
+
+body.sticky-footer .content-wrapper {
+  min-height: calc(100vh - 56px - 56px);
+}
+
+body.fixed-nav {
+  padding-top: 56px;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 56px);
+  padding-top: 1rem;
+}
+
+body {
+	background-color: red; 
+}
+#mainNav .navbar-collapse {
+	overflow: auto;
+	max-height: 75vh;
+	background: red;
+	align-items: center;
+}
+
+
+	.navbar-sidenav li.nav-item {
+    height: 86px;
+    width: 221px;
+    padding-top: 17px;
+	}
+
+	div#navbarTogglerDemo02 {
+	    overflow: visible;
+	    height:  auto;
+	    background-color:  #343a40;
+	}
+
+	ul#exampleAccordion {
+	    position: absolute;
+	    top: 55px;
+	    left: 0px;
+	    height: auto;
+	    flex-direction:  column;
+	    background-color: #343a40;
+	    padding-right: 0px;
+	}
+
+	a.navbar-brand {
+	    width: 250px;
+	} 

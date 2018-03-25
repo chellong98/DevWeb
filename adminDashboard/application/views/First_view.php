@@ -8,34 +8,110 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/font-awesome/css/font-awesome.min.css">
 	<link href="<?php echo base_url(); ?>vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
- 	<link rel="stylesheet" href="<?php echo base_url(); ?>1.css">
+ 	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/1.css">
 	
 </head>
-<body class="fixed-nav sticky-footer">
-	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+<body class="fixed-nav sticky-footer" id="page-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" href="#">Repositories of Cuccut123</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+        <li class="nav-item" datatoggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="#">
+            <i class="fa fa-fw fa-home"></i>
+            Home 
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item" datatoggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" href="#">
+            <i class="fa fa-fw fa-area-chart"></i>
+            <span class="nav-link-text">Tài liệu lưu trữ </span>
+          </a>
+        </li>
+         <li class="nav-item" datatoggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="#">
+            <i class="fa fa-fw fa-table"></i> 
+            <span class="nav-link-text">Tables</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components" data-parent="#exampleAccordion">
+          <a href="#" class="nav-link nav-link-collapse collapsed" data-toggle="collapse">
+            <i class="fa fa-fw fa-wrench"></i>
+            <span class="nav-link-text">Components</span>
+          </a>
+            <ul class="sidenav-second-level collapse" id="collapseComponents">
+              <li>
+              <a href="#">Navbar</a>
+              </li>
+              <li>
+              <a href="#">Cards</a>
+              </li>
+            </ul>
+         </li>
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a href="#" class="nav-link nav-link-collapse collapsed" data-tggle="collapse" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-file"></i>
+            <span class="nav-link-text">Example Pages</span>
+          </a>
+            <ul class="sidenav-second-level collapse" id="collapseExamplePages">
+              <li>
+              <a href="#">Login Page</a>
+              </li>
+              <li>
+              <a href="#">Registrtion Page</a>
+              </li>
+              <li>
+              <a href="#">Forgot Password Page</a>
+              </li>
+            </ul>
+        </li>
+        <li class="nav-item sidenavToggler" style="background-color: #212529">
+          <a id="sidenavToggler" href="#" class="nav-link text-center">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <form class="form-inline my-7 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              <i class="fa fa-search"></i>
+              Search
+          </button>
+          </form>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="modal" href="" class="nav-link">
+            <i class="fa fa-fw fa-sign-out"></i>
+            Logout
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content-wrapper" >
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-10  ml-auto">
+          <ol class="breadcrumb">
+            <li class="breadcrump-item">
+              <a href="#">Home </a>
+            </li>
+            <li class="breadcrumb-item active">
+              / New feed
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
   </div>
-</nav>
 
 </body>
 </html>
