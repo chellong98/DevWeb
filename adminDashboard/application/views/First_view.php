@@ -37,13 +37,13 @@
          <li class="nav-item" datatoggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="#">
             <i class="fa fa-fw fa-table"></i> 
-            <span class="nav-link-text">Tables</span>
+            <span class="nav-link-text">Danh sách thành viên</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components" data-parent="#exampleAccordion">
           <a href="#" class="nav-link nav-link-collapse collapsed" data-toggle="collapse">
             <i class="fa fa-fw fa-wrench"></i>
-            <span class="nav-link-text">Components</span>
+            <span class="nav-link-text">Trạng thái của bạn</span>
           </a>
             <ul class="sidenav-second-level collapse" id="collapseComponents">
               <li>
