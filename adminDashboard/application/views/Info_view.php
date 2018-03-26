@@ -38,7 +38,7 @@
           </a>
         </li>
          <li class="nav-item" datatoggle="tooltip" data-placement="right" title="Tables">
-          <a class="nav-link" href="<?php echo base_url(); ?>/index.php/First_controller/loadInfo">
+          <a class="nav-link" href="#">
             <i class="fa fa-fw fa-table"></i> 
             <span class="nav-link-text">Danh sách thành viên</span>
           </a>
@@ -75,7 +75,7 @@
             </ul>
         </li>
         <li class="nav-item sidenavToggler" style="background-color: #212529">
-          <a id="sidenavToggler" href="#" class="m-auto nav-link text-center">
+          <a id="sidenavToggler" href="#" class="nav-link text-center">
             <i class="fa fa-fw fa-angle-left"></i>
           </a>
         </li>
@@ -111,6 +111,45 @@
               / New feed
             </li>
           </ol>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 ml-auto">
+          <div class="card card-block">
+          <div class="card-header">
+            <i class="fa fa-area-chart"></i> Thong tin ca nhan
+          </div>
+          <div class="card-body ">
+            <div class="card-deck card-block">
+              <div class="card ">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer small text-muted">Updated yesterday at 11:59 PM
+          </div>
+          </div>
         </div>
       </div>
     </div>
