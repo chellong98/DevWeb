@@ -7,8 +7,9 @@
  	<script type="text/javascript" src="<?php echo base_url(); ?>1.js"></script>
 	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/font-awesome/css/font-awesome.min.css">
-	<link href="<?php echo base_url(); ?>vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
  	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/1.css">
+
+
 
 </head>
 <style>
@@ -58,11 +59,11 @@
             </ul>
          </li>
           <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
-          <a href="#" class="nav-link nav-link-collapse collapsed" data-tggle="collapse" data-parent="#exampleAccordion">
+          <a href="#exampleAccordion2" class="nav-link nav-link-collapse collapsed" data-toggle="collapse">
             <i class="fa fa-fw fa-file"></i>
             <span class="nav-link-text">Example Pages</span>
           </a>
-            <ul class="sidenav-second-level collapse" id="collapseExamplePages">
+            <ul  class="sidenav-second-level collapse" id="exampleAccordion2">
               <li>
               <a href="#">Login Page</a>
               </li>
@@ -75,7 +76,7 @@
             </ul>
         </li>
         <li class="nav-item sidenavToggler" style="background-color: #212529">
-          <a id="sidenavToggler" href="#" class="nav-link text-center">
+          <a id="sidenavToggler" href="#" class="nav-link text-center mb-2">
             <i class="fa fa-fw fa-angle-left"></i>
           </a>
         </li>

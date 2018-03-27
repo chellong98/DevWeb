@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"> 
 	<title>view 1</title>
 	<script type="text/javascript" src="<?php echo base_url(); ?>vendor/bootstrap.js"></script>
  	<script type="text/javascript" src="<?php echo base_url(); ?>1.js"></script>
@@ -12,7 +12,7 @@
 
 </head>
 <style>
-  
+   
 
 </style>
 <body class="fixed-nav sticky-footer" id="page-top">
@@ -75,7 +75,7 @@
             </ul>
         </li>
         <li class="nav-item sidenavToggler" style="background-color: #212529">
-          <a id="sidenavToggler" href="#" class="m-auto nav-link text-center">
+          <a id="sidenavToggler" href="#" class=" nav-link text-center mb-1">
             <i class="fa fa-fw fa-angle-left"></i>
           </a>
         </li>
