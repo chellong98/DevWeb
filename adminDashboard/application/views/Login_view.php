@@ -14,10 +14,10 @@
 <body class="bg-dark">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-10 push-sm-2">
+			<div class="col-sm-10 m-auto">
 				<div class="card card-login mt-5">
 					<div class="card-header img-circle" align="center" >
-`						<img src="https://bootsnipp.com/img/logo.jpg" width="10%" height="10%" class="img-circle">
+`						<img src="https://bootsnipp.com/img/logo.jpg" width="10%" height="10%" style = "border-radius: 200px">
 					</div>
 					<div class="card-body">
 						<form action="" method="POST" role="form">
