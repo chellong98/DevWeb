@@ -16,7 +16,25 @@
     <link rel="stylesheet" type="text/css" href="http://www.daterangepicker.com/daterangepicker.css" />
     <script rel="stylesheet" type="text/css" href="http://www.daterangepicker.com/website.js"> </script>
     <link rel="stylesheet" type="text/css" href="http://www.daterangepicker.com/website.css">
-	
+	<script type="text/javascript">
+
+		<?php
+			if($check==0) {
+		?>
+				alert('email khong dung')
+	 
+		<?php
+			}
+			 else {
+			 
+			 	if($data!==null) {
+		?>
+			 		alert('Success')
+		<?php
+			 	}
+			 }
+		?>
+	</script>
 </head>
 <body class="bg-dark">
 	<div class="container">
@@ -27,7 +45,7 @@
 						<img src="https://bootsnipp.com/img/logo.jpg" width="10%" height="10%" style = "border-radius: 200px">
 					</div>
 				<div class="card-body ">
-					<form action="<?php echo base_url()?>index.php/first_controller/loadDatabase" method="POST" role="form">
+					<form action="<?php echo base_url()?>index.php/first_controller/addUsers" method="POST" role="form">
 						<legend>Register Users</legend>
 					
 						<div class="form-group">
@@ -50,31 +68,37 @@
 							<div class="row mt-2">
 								<div class="col-sm-6">
 									<label>Password</label>
-									<input name="password" placeholder="Password" type="text" class="form-control">
+									<input name="password" placeholder="Password" type="password" class="form-control">
 								</div>
 								<div class="col-sm-6">
 									<label>Confirm Password</label>
-									<input name="comfirmpassword" placeholder="Confirm Password" type="text" class="form-control">
+									<input name="comfirmpassword" placeholder="Confirm Password" type="password" class="form-control">
 								</div>	
 							</div>
 							<div class="row mt-2">
 								<div class="col-sm-6">
 									<label>Date of birth</label>
-									<input required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" type="text" name="birthdate" value="10/24/1984" class="form-control" />
+									<input type="text" name="birthdate" value="10/24/1984" class="form-control" />
 								</div>
 								<div class="col-sm-6">
 									<label>Gender</label>
 										<div class="radio-inline">
 										   
-										    	<input type="radio" name="sex"> 
-										    	<label for="sex">Nam </label>
-										    
-										  
-										    	<input  type="radio" name="sex"> 
+									    	<input type="radio" name="sex"> 
+									    	<label for="sex">Male </label>
+									    
+									  
+									    	<input  type="radio" name="sex"> 
 
-										     	 <label for="sex">Nu</label> 
+									     	 <label for="sex">Female</label> 
 										
 									    </div>	    
+								</div>
+							</div>
+							<div class="row mt-2">
+								<div class="col-sm-12">
+									<label>Link Facebook</label>
+									<input name="linkfacebook" type="text" placeholder="facebook" class="form-control">
 								</div>
 							</div>
 						</div>
