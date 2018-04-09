@@ -45,7 +45,7 @@
 						<img src="https://bootsnipp.com/img/logo.jpg" width="10%" height="10%" style = "border-radius: 200px">
 					</div>
 				<div class="card-body ">
-					<form action="<?php echo base_url()?>index.php/first_controller/addUsers" method="POST" role="form">
+					<form action="<?php echo base_url()?>index.php/first_controller/addUsers" method="POST" role="form" enctype="multipart/form-data">
 						<legend>Register Users</legend>
 					
 						<div class="form-group">
@@ -99,6 +99,25 @@
 								<div class="col-sm-12">
 									<label>Link Facebook</label>
 									<input name="linkfacebook" type="text" placeholder="facebook" class="form-control">
+								</div>
+							</div> 
+							<div class="row mt-2">
+								<div class="col-sm-12">
+									<div class="card">
+										<div class="card-header">
+											Upload Image
+										</div>
+										<div class="card-body">
+											
+									      
+											  <div class="form-group">
+											    
+											    <input type="file" name="file" class="form-control-file" id="exampleFormControlFile1">
+											  </div>
+											
+											 
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
