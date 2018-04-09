@@ -14,7 +14,7 @@
 	<?php require('header_sim.php');?>
 	<div class="container" align="center">
 			<div class="text-xs-center">
-				<h1>Các sim và giá hiện có</h1>
+				<h1>Sửa sô sim và giá tiền</h1>
 			</div>
 		<hr>
 	</div>
@@ -23,17 +23,30 @@
 		<div class="row">
 			<?php foreach ($dulieu as $key => $value): ?>
 								
-				<div class="col-sm-4">
-					<div class="card card-deck">
-						<div class="card-body">
-							<h3 class="card-title">so sim: <?= $value['soDienThoai'] ?></h3>
-			   				<p class="card-text">gia tien: <?= $value['giaTien']?></p>
-			   				<p class="card-id">id: <?= $value['idSim']?></p>
-			   				<a href="showData_controller/deleteData?delete=<?= $value['idSim']?>" class="btn btn-danger"><i class="fa fa-times"></i></a>
-			   				<a href="showData_controller/editsim/<?= $value['idSim']?>" class="btn btn-warning"><i class="fa fa-pencil"></i></a>
+			<div class="col-sm-8 ">
+					<div class="card">
+						<div class="card-block">
+							<form action="../updateDuLieu" method="POST" role="form">
+								
+									<input name="id"  type="hidden" class="form-control" id="" placeholder="ví dụ: 12235254" value="<?= $value['idSim']?>">
+							
+
+								<div class="form-group">
+									<label for="">số sim</label>
+									<input name="num" type="text" class="form-control" id="" placeholder="ví dụ: 12235254" value="<?= $value['soDienThoai']?>">
+								</div>
+								
+								<div class="form-group">
+									<label for="">giá sim</label>
+									<input name="cost" type="text" class="form-control" id="" placeholder="ví dụ: 123" value="<?= $value['giaTien']?>">
+								</div>
+								
+								<input type="submit" class="btn btn-success btn-block" value="Lưu">
+							</form>
+
 						</div>
 					</div>
-				</div>
+			</div>
 
 			<?php endforeach ?>
 		</div>

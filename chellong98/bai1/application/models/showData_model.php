@@ -27,6 +27,28 @@ class showData_model extends CI_Model {
 		return $this->db->delete('so_sim');
 		
 	}
+
+	public function editbyID($idlayve)
+	{
+		$this->db->select('*');
+		$this->db->where('idSim', $idlayve);
+		$dulieu = $this->db->get('so_sim'); 
+		$dulieu = $dulieu->result_array();//chuyen du lieu ve mang
+		// echo '<pre>';
+		// var_dump($dulieu); //in ra gia triva kieu du lieu
+		return $dulieu;
+	}
+	public function updateData($id, $so, $gia)
+	{
+		$dulieucanupdate = array(
+			'idSim'=>$id,
+			'soDienThoai'=>$so,
+			'giaTien'=>$gia
+		);
+
+		$this->db->where('idSim', $id);
+		return $this->db->update('so_sim', $dulieucanupdate);
+	}
 }
 
 /* End of file showData_model.php */
