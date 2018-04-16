@@ -84,11 +84,11 @@
 									<label>Gender</label>
 										<div class="radio-inline">
 										   
-									    	<input type="radio" name="sex"> 
+									    	<input value="Male" type="radio" name="sex"> 
 									    	<label for="sex">Male </label>
 									    
 									  
-									    	<input  type="radio" name="sex"> 
+									    	<input value="Female"  type="radio" name="sex"> 
 
 									     	 <label for="sex">Female</label> 
 										
