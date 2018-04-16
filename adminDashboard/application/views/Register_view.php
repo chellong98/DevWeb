@@ -16,69 +16,63 @@
     <link rel="stylesheet" type="text/css" href="http://www.daterangepicker.com/daterangepicker.css" />
     <script rel="stylesheet" type="text/css" href="http://www.daterangepicker.com/website.js"> </script>
     <link rel="stylesheet" type="text/css" href="http://www.daterangepicker.com/website.css">
-	<script type="text/javascript">
-
-		<?php
-			if($check==0) {
-		?>
-				alert('email khong dung')
-	 
-		<?php
-			}
-			 else {
-			 
-			 	if($data!==null) {
-		?>
-			 		alert('Success')
-		<?php
-			 	}
-			 }
-		?>
-	</script>
+	
 </head>
+
 <body class="bg-dark">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8 m-auto ">
-				<div class="card card-block mt-5 move">
+				<?php if(isset($error_messenger)) {
+				?>
+					<ol class="breadcrumb alert-warning mt-5 ">
+							<?php if (!empty($error_messenger)) echo $error_messenger?>
+					</ol>	
+				<?php } ?>
+				<?php if(isset($success_messenger)) {
+				?>
+					<ol class="breadcrumb alert-success mt-5 ">
+							<?php if (!empty($success_messenger)) echo $success_messenger?>
+					</ol>	
+				<?php } ?>
+				<div class="card card-block move mt-5">
 					<div class="card-header" align="center">
 						<img src="https://bootsnipp.com/img/logo.jpg" width="10%" height="10%" style = "border-radius: 200px">
 					</div>
 				<div class="card-body ">
-					<form action="<?php echo base_url()?>index.php/first_controller/addUsers" method="POST" role="form" enctype="multipart/form-data">
+					<form action="<?php echo base_url()?>index.php/first_controller/addUsers_controller" method="POST" role="form" enctype="multipart/form-data">
 						<legend>Register Users</legend>
-					
 						<div class="form-group">
 							<div class="row">
 								<div class="col-sm-6">
 									<label>First Name</label>
-									<input name="firstname" placeholder="Enter Fist Name" type="text" class="form-control">
+									<input name="firstname" placeholder="Enter Fist Name" type="text" class="form-control" value="<?php if(isset($_POST['firstname'])) echo $_POST['firstname']?>">
 								</div>	
 								<div class="col-sm-6">
 									<label>Last Name</label>
-									<input name="lastname" placeholder="Enter Last Name" type="text" class="form-control">
+									<input name="lastname" placeholder="Enter Last Name" type="text" class="form-control" value="<?php if(isset($_POST['lastname'])) echo $_POST['lastname']?>">
 								</div>		
 							</div>
 							<div class="row mt-2">
 								<div class="col-sm-12">
 									<label>Email</label>
-									<input name="email" placeholder="Enter Email" type="text" class="form-control">
+									<input name="email" placeholder="Enter Email" type="text" class="form-control" value="<?php if(isset($_POST['email'])) echo $_POST['email']?>">
 								</div>
 							</div>
 							<div class="row mt-2">
 								<div class="col-sm-6">
 									<label>Password</label>
-									<input name="password" placeholder="Password" type="password" class="form-control">
+									<input name="password" placeholder="Password" type="password" class="form-control" value="<?php if(isset($_POST['password'])) echo $_POST['password']?>">
 								</div>
 								<div class="col-sm-6">
 									<label>Confirm Password</label>
-									<input name="comfirmpassword" placeholder="Confirm Password" type="password" class="form-control">
+									<input name="confirmpassword" placeholder="Confirm Password" type="password" class="form-control" value="<?php if(isset($_POST['comfirmpassword'])) echo $_POST['comfirmpassword']?>">
 								</div>	
 							</div>
-							<div class="row mt-2">
+							<div class="row mt-2"> 
 								<div class="col-sm-6">
 									<label>Date of birth</label>
-									<input type="text" name="birthdate" value="10/24/1984" class="form-control" />
+									<input type="text" name="birthdate" value="<?php if(isset($_POST['birthdate'])) echo $_POST['birthdate']?>" class="form-control" />
 								</div>
 								<div class="col-sm-6">
 									<label>Gender</label>
@@ -86,9 +80,9 @@
 										   
 									    	<input value="Male" type="radio" name="sex"> 
 									    	<label for="sex">Male </label>
-									    
-									  
-									    	<input value="Female"  type="radio" name="sex"> 
+									   
+									    	<input  type="radio" name="sex" value="Female"> 
+
 
 									     	 <label for="sex">Female</label> 
 										
@@ -98,21 +92,34 @@
 							<div class="row mt-2">
 								<div class="col-sm-12">
 									<label>Link Facebook</label>
-									<input name="linkfacebook" type="text" placeholder="facebook" class="form-control">
+									<input name="linkfacebook" type="text" placeholder="facebook" class="form-control" value="<?php if(isset($_POST['linkfacebook'])) echo $_POST['linkfacebook']?>">
 								</div>
 							</div> 
 							<div class="row mt-2">
 								<div class="col-sm-12">
 									<div class="card">
 										<div class="card-header">
-											Upload Image
+											Upload Image 
 										</div>
 										<div class="card-body">
-											
-									      
 											  <div class="form-group">
 											    
-											    <input type="file" name="file" class="form-control-file" id="exampleFormControlFile1">
+											    <input type="file" name="fileImage" class="form-control-file" id="exampleFormControlFile1">
+											  </div>				 
+										</div>
+									</div>
+								</div>
+							</div> 
+							<div class="row mt-2">
+								<div class="col-sm-12">
+									<div class="card">
+										<div class="card-header">
+											Upload Image Cover
+										</div>
+										<div class="card-body">
+											  <div class="form-group">
+											    
+											    <input type="file" name="fileImageCover" class="form-control-file" id="exampleFormControlFile2">
 											  </div>
 											
 											 
@@ -122,7 +129,7 @@
 							</div>
 						</div>
 					
-						<button  type="submit" class="btn btn-success btn-block">Regiter</button>
+						<input value="Register" name="register-user"  type="submit" class="btn btn-success btn-block">
 					</form>
 				</div>
 				<div class="card-footer">
@@ -133,4 +140,4 @@
 		</div>
 	</div>
 </body>
-<script type="text/javascript" src="<?php echo base_url(); ?>vendor/1.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>vendor/1.js"></script> 
