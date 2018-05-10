@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => '125.212.227.42',
 	'username' => 'root',
-	'password' => 'longvip98',
+	'password' => 'toor',
 	'database' => 'cuccut123database',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -94,4 +94,4 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-$db['default']['port'] = 81;
+$db['default']['port'] = 3336;
