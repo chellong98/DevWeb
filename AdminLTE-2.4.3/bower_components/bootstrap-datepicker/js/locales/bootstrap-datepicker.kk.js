@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * Kazakh translation for bootstrap-datepicker
  * Yerzhan Tolekov <era.tolekov@gmail.com>
@@ -13,3 +14,20 @@
 		weekStart: 1
 	};
 }(jQuery));
+=======
+/**
+ * Kazakh translation for bootstrap-datepicker
+ * Yerzhan Tolekov <era.tolekov@gmail.com>
+ */
+;(function($){
+	$.fn.datepicker.dates['kk'] = {
+		days: ["Жексенбі", "Дүйсенбі", "Сейсенбі", "Сәрсенбі", "Бейсенбі", "Жұма", "Сенбі"],
+		daysShort: ["Жек", "Дүй", "Сей", "Сәр", "Бей", "Жұм", "Сен"],
+		daysMin: ["Жк", "Дс", "Сс", "Ср", "Бс", "Жм", "Сн"],
+		months: ["Қаңтар", "Ақпан", "Наурыз", "Сәуір", "Мамыр", "Маусым", "Шілде", "Тамыз", "Қыркүйек", "Қазан", "Қараша", "Желтоқсан"],
+		monthsShort: ["Қаң", "Ақп", "Нау", "Сәу", "Мам", "Мау", "Шіл", "Там", "Қыр", "Қаз", "Қар", "Жел"],
+		today: "Бүгін",
+		weekStart: 1
+	};
+}(jQuery));
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

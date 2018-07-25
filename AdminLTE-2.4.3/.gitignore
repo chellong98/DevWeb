@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.DS_Store
 *.log
 *.zip
@@ -9,3 +10,16 @@
 ad.js
 TODO
 test.html
+=======
+*.DS_Store
+*.log
+*.zip
+.idea
+.sass-cache/
+/nbproject/
+/nbproject/private/
+/node_modules/
+ad.js
+TODO
+test.html
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

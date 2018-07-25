@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 docs/_build
 *-dist.zip
 
@@ -8,3 +9,15 @@ docs/_build
 # Folders to ignore
 bower_components
 node_modules
+=======
+docs/_build
+*-dist.zip
+
+# OS or Editor folders
+.DS_Store
+.idea
+
+# Folders to ignore
+bower_components
+node_modules
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

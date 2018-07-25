@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  {
    "allowed_file_extensions": ["htm", "html", "xhtml", "shtml", "xml", "svg", "dust"],
    "brace_style": "collapse",
@@ -11,3 +12,18 @@
    "unformatted": ["code", "h1", "h2", "h3", "h4", "h5", "h6"],
    "wrap_line_length": 0
  }
+=======
+ {
+   "allowed_file_extensions": ["htm", "html", "xhtml", "shtml", "xml", "svg", "dust"],
+   "brace_style": "collapse",
+   "end_with_newline": true,
+   "indent_char": " ",
+   "indent_inner_html": false,
+   "indent_scripts": "keep",
+   "indent_size": 2,
+   "max_preserve_newlines": 1,
+   "preserve_newlines": true,
+   "unformatted": ["code", "h1", "h2", "h3", "h4", "h5", "h6"],
+   "wrap_line_length": 0
+ }
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

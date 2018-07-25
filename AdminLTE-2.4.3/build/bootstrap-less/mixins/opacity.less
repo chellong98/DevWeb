@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Opacity
 
 .opacity(@opacity) {
@@ -6,3 +7,13 @@
   @opacity-ie: (@opacity * 100);
   filter: ~"alpha(opacity=@{opacity-ie})";
 }
+=======
+// Opacity
+
+.opacity(@opacity) {
+  opacity: @opacity;
+  // IE8 filter
+  @opacity-ie: (@opacity * 100);
+  filter: ~"alpha(opacity=@{opacity-ie})";
+}
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Global styling for this template
 
 html {
@@ -53,3 +54,60 @@ body.fixed-nav {
     font-weight: 800;
   }
 }
+=======
+// Global styling for this template
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body.sticky-footer {
+  margin-bottom: $sticky-footer-height;
+  .content-wrapper {
+    min-height: calc(100vh - #{$sticky-footer-height} - #{$navbar-base-height});
+  }
+}
+
+body.fixed-nav {
+  padding-top: $navbar-base-height;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - #{$sticky-footer-height});
+  padding-top: 1rem;
+}
+
+// Scroll to top button
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 3px;
+
+  display: none;
+
+  width: 50px;
+  height: 50px;
+
+  text-align: center;
+
+  color: white;
+  background: fade-out($gray-800, .5);
+
+  line-height: 45px;
+  &:focus,
+  &:hover {
+    color: white;
+  }
+  &:hover {
+    background: $gray-800;
+  }
+  i {
+    font-weight: 800;
+  }
+}
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

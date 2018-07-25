@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # What is slimScroll?
 
 slimScroll is a small jQuery plugin that transforms any div into a scrollable area with a nice scrollbar - similar to the one Facebook and Google started using in their products recently. slimScroll doesn't occupy any visual space as it only appears on a user initiated mouse-over. User can drag the scrollbar or use mouse-wheel to change the scroll value.
@@ -5,4 +6,13 @@ slimScroll is a small jQuery plugin that transforms any div into a scrollable ar
 Demo and deocumentation available here: [jQuery slimScroll docs](http://rocha.la/jQuery-slimScroll)
 
 Copyright (c) 2011 Piotr Rochala (http://rocha.la)
+=======
+# What is slimScroll?
+
+slimScroll is a small jQuery plugin that transforms any div into a scrollable area with a nice scrollbar - similar to the one Facebook and Google started using in their products recently. slimScroll doesn't occupy any visual space as it only appears on a user initiated mouse-over. User can drag the scrollbar or use mouse-wheel to change the scroll value.
+
+Demo and deocumentation available here: [jQuery slimScroll docs](http://rocha.la/jQuery-slimScroll)
+
+Copyright (c) 2011 Piotr Rochala (http://rocha.la)
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c
 Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.

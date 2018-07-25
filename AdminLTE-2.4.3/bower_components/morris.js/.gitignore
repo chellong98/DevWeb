@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 build/
 node_modules/
 spec/viz/output/
 spec/viz/diff/
 bower_components
 .idea
+=======
+build/
+node_modules/
+spec/viz/output/
+spec/viz/diff/
+bower_components
+.idea
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

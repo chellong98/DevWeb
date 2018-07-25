@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 sudo:          false
 language:      node_js
 node_js:
@@ -9,3 +10,16 @@ script:
 cache:
   directories:
     - node_modules
+=======
+sudo:          false
+language:      node_js
+node_js:
+  - "node"
+install:       npm install
+script:
+  - npm test
+  - gulp
+cache:
+  directories:
+    - node_modules
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

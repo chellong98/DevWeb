@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Additional Text Helper Class
 .smaller {
   font-size: 0.7rem;
@@ -16,3 +17,23 @@
 .z-1 {
   z-index: 1;
 }
+=======
+// Additional Text Helper Class
+.smaller {
+  font-size: 0.7rem;
+}
+
+// Helper class for the overflow property
+.o-hidden {
+  overflow: hidden !important;
+}
+
+// Helper classes for z-index
+.z-0 {
+  z-index: 0;
+}
+
+.z-1 {
+  z-index: 1;
+}
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

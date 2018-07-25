@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 sphinx_rtd_theme
+=======
+sphinx_rtd_theme
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

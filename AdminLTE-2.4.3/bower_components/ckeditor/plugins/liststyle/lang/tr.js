@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 ﻿CKEDITOR.plugins.setLang("liststyle","tr",{armenian:"Ermenice sayılandırma",bulletedTitle:"Simgeli Liste Özellikleri",circle:"Daire",decimal:"Ondalık (1, 2, 3, vs.)",decimalLeadingZero:"Başı sıfırlı ondalık (01, 02, 03, vs.)",disc:"Disk",georgian:"Gürcüce numaralandırma (an, ban, gan, vs.)",lowerAlpha:"Küçük Alpha (a, b, c, d, e, vs.)",lowerGreek:"Küçük Greek (alpha, beta, gamma, vs.)",lowerRoman:"Küçük Roman (i, ii, iii, iv, v, vs.)",none:"Yok",notset:"\x3cayarlanmamış\x3e",numberedTitle:"Sayılandırılmış Liste Özellikleri",
+=======
+﻿CKEDITOR.plugins.setLang("liststyle","tr",{armenian:"Ermenice sayılandırma",bulletedTitle:"Simgeli Liste Özellikleri",circle:"Daire",decimal:"Ondalık (1, 2, 3, vs.)",decimalLeadingZero:"Başı sıfırlı ondalık (01, 02, 03, vs.)",disc:"Disk",georgian:"Gürcüce numaralandırma (an, ban, gan, vs.)",lowerAlpha:"Küçük Alpha (a, b, c, d, e, vs.)",lowerGreek:"Küçük Greek (alpha, beta, gamma, vs.)",lowerRoman:"Küçük Roman (i, ii, iii, iv, v, vs.)",none:"Yok",notset:"\x3cayarlanmamış\x3e",numberedTitle:"Sayılandırılmış Liste Özellikleri",
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c
 square:"Kare",start:"Başla",type:"Tipi",upperAlpha:"Büyük Alpha (A, B, C, D, E, vs.)",upperRoman:"Büyük Roman (I, II, III, IV, V, vs.)",validateStartNumber:"Liste başlangıcı tam sayı olmalıdır."});

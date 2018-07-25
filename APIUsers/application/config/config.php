@@ -23,7 +23,11 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $config['base_url'] = 'http://125.212.227.42:9000/DevWeb/APIUsers';
+=======
+$config['base_url'] = 'http://localhost:8080/APIUsers/';
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c
 
 /*
 |--------------------------------------------------------------------------

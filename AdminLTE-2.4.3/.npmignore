@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 bower_components/
 documentation/
+=======
+bower_components/
+documentation/
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c
 composer.json

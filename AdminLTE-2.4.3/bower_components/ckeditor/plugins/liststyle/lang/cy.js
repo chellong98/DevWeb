@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 ﻿CKEDITOR.plugins.setLang("liststyle","cy",{armenian:"Rhifo Armeneg",bulletedTitle:"Priodweddau Rhestr Fwled",circle:"Cylch",decimal:"Degol (1, 2, 3, ayyb.)",decimalLeadingZero:"Degol â sero arweiniol (01, 02, 03, ayyb.)",disc:"Disg",georgian:"Rhifau Sioraidd (an, ban, gan, ayyb.)",lowerAlpha:"Alffa Is (a, b, c, d, e, ayyb.)",lowerGreek:"Groeg Is (alpha, beta, gamma, ayyb.)",lowerRoman:"Rhufeinig Is (i, ii, iii, iv, v, ayyb.)",none:"Dim",notset:"\x3cheb osod\x3e",numberedTitle:"Priodweddau Rhestr Rifol",
+=======
+﻿CKEDITOR.plugins.setLang("liststyle","cy",{armenian:"Rhifo Armeneg",bulletedTitle:"Priodweddau Rhestr Fwled",circle:"Cylch",decimal:"Degol (1, 2, 3, ayyb.)",decimalLeadingZero:"Degol â sero arweiniol (01, 02, 03, ayyb.)",disc:"Disg",georgian:"Rhifau Sioraidd (an, ban, gan, ayyb.)",lowerAlpha:"Alffa Is (a, b, c, d, e, ayyb.)",lowerGreek:"Groeg Is (alpha, beta, gamma, ayyb.)",lowerRoman:"Rhufeinig Is (i, ii, iii, iv, v, ayyb.)",none:"Dim",notset:"\x3cheb osod\x3e",numberedTitle:"Priodweddau Rhestr Rifol",
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c
 square:"Sgwâr",start:"Dechrau",type:"Math",upperAlpha:"Alffa Uwch (A, B, C, D, E, ayyb.)",upperRoman:"Rhufeinig Uwch (I, II, III, IV, V, ayyb.)",validateStartNumber:"Rhaid bod y rhif cychwynnol yn gyfanrif."});

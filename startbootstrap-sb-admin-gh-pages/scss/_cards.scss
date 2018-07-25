@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Styling for custom cards
 // Custom class for the background icon in card blocks
 .card-body-icon {
@@ -22,3 +23,29 @@
     column-count: 2;
   }
 }
+=======
+// Styling for custom cards
+// Custom class for the background icon in card blocks
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: -25px;
+  right: -25px;
+
+  font-size: 5rem;
+  @include rotate;
+}
+
+// Override breakpoints for card columns to work well with sidebar
+.card-columns {
+  @media (min-width: 576px) {
+    column-count: 1;
+  }
+  @media (min-width: 768px) {
+    column-count: 2;
+  }
+  @media (min-width: 1200px) {
+    column-count: 2;
+  }
+}
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c

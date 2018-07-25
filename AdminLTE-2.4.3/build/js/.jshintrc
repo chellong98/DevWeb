@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "asi"      : true,
   "browser"  : true,
@@ -15,3 +16,22 @@
   // External variabls and plugins
   "predef":  [ "AdminLTEOptions", "FastClick", "moment", "Morris", "Chart" ]
 }
+=======
+{
+  "asi"      : true,
+  "browser"  : true,
+  "eqeqeq"   : false,
+  "eqnull"   : true,
+  "es3"      : true,
+  "expr"     : true,
+  "jquery"   : true,
+  "latedef"  : true,
+  "laxbreak" : true,
+  "nonbsp"   : true,
+  "strict"   : true,
+  "undef"    : true,
+  "unused"   : true,
+  // External variabls and plugins
+  "predef":  [ "AdminLTEOptions", "FastClick", "moment", "Morris", "Chart" ]
+}
+>>>>>>> dc6f5e4785075211e9a8d0f8d80bd5a4d0d7383c
